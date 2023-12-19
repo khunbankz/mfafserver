@@ -1,0 +1,17 @@
+{
+  "name": "socket_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mock_server.js",
+  "scripts": {
+    "start": "node mock_server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.7.2"
+  }
+}
