@@ -150,7 +150,9 @@ io.on("connection", (socket) => {
   //   },10000);
   // }
 });
-
+app.get('/i', (req, res) => {
+  res.send('hello world')
+})
 server.listen(3000, () => {
   console.log("listening on *:3000");
 });
